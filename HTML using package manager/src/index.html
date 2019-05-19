@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Components in HTML with Package manager</title>
+    <script src="webcomponents/webcomponents-loader.js"></script>
+    <script>
+    if (!window.customElements) { document.write('<!--'); }
+    </script>
+    <script src="webcomponents/custom-elements-es5-adapter.js"></script>
+    <!-- ! DO NOT REMOVE THIS COMMENT, WE NEED ITS CLOSING MARKER -->
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Web Components in HTML with Package manager</h1>
+    <ideahub-icon-toggle toggle-icon="drafts"></ideahub-icon-toggle> HTML Web Application with Ideahub Web Components!<br />
+    <ideahub-products></ideahub-products>
+</body>
+</html>
